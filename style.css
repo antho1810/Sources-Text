@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2d2dd6;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.card {
+  background-color: #fff;
+  padding-bottom: 30px;
+  width: 270px;
+  margin: 30px;
+}
+
+.card__texts {
+  padding: 30px 20px;
+}
+
+.card__img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card__title {
+  font-weight: bold;
+  color: red;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.card__paragraph {
+  /* text-align: stard | center | end | justify; es para centar el texto  */
+  line-height: 1.7;
+  /* line-height es el tamaño de cada renglon */
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.card__cta {
+  background-color: purple;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 30px;
+  font-weight: 700;
+}
